@@ -1,0 +1,15 @@
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.testbg {
+  background-image: url(./images/Testimonials.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.clients {
+  background-image: url(./images/our\ clients.webp);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,33 @@
+.sectionBg {
+  background-image: url(./images/newsSection.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.newsSectionBg {
+  background-image: url(./images/newsse.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.HoverGreyColor {
+  background: rgb(30, 31, 33);
+  background: linear-gradient(
+    0deg,
+    rgba(30, 31, 33, 1) 0%,
+    rgba(0, 0, 0, 0.1516981792717087) 100%
+  );
+}
+
+.swiper {
+  position: inherit !important;
+  padding: 30px 0px 0px 0px ;
+}
+
+.swiper-pagination-bullet-active {
+  /* width: 20px !important; */
+  /* border-radius: 4px !important; */
+  background-color: #ec5800;
+}
