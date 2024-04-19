@@ -1,11 +1,11 @@
 .footbg {
-  background-image: url(./images/footer\ image.webp);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  /* opacity: 0.2; */
+    background-image: url(./images/footer\ image.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /* opacity: 0.2; */
 }
 .footshadow {
-  /* box-shadow: 10px -10px 10px -4px rgba(0,0,0,0.1); */
-  box-shadow: 13px -10px 15px -3px rgba(0, 0, 0, 0.1);
+    /* box-shadow: 10px -10px 10px -4px rgba(0,0,0,0.1); */
+    box-shadow: 13px -10px 15px -3px rgba(0, 0, 0, 0.1);
 }
