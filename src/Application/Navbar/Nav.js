@@ -54,8 +54,8 @@ export default function Nav(props) {
                 <LazyLoadImage
                     src={Logo}
                     draggable="false"
-                    width="93"
-                    height="118"
+                    // width="93"
+                    // height="118"
                     alt="Padmavathi Institute of Public Policy"
                     className="lg:h-full sm:h-[50px] mdsm:h-[70px]"
                 />
@@ -103,16 +103,31 @@ export default function Nav(props) {
                                 <li></li>
                                 <li>
                                     <Link to="/" className={`block px-3`}>
-                                        <li className={`${props.active === 'home' ? 'active' : 'hover-underline-animation'}`}>Home</li>
+                                        <ul>
+                                            <li className={`${props.active === 'home' ? 'active' : 'hover-underline-animation'}`}>Home</li>
+                                        </ul>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/about" className={`block px-3`}>
-                                        <li className={`${props.active === 'about' ? 'active' : 'hover-underline-animation'}`}>About us</li>
+                                        <ul>
+                                            <li className={`${props.active === 'about' ? 'active' : 'hover-underline-animation'}`}>About us</li>
+                                        </ul>
                                     </Link>
                                 </li>
                                 <li className="px-3 relative group flex ">
-                                    <span className="text-white cursor-pointer">What We Offer</span>
+                                    <span
+                                        className={`${
+                                            props.active === 'what-we-offer/teaching' ||
+                                            props.active === 'research' ||
+                                            props.active === 'advocacy' ||
+                                            props.active === 'practice'
+                                                ? 'active'
+                                                : 'hover-underline-animation'
+                                        } text-white cursor-pointer`}
+                                    >
+                                        What We Offer
+                                    </span>
                                     <HiChevronDown className="text-[20px] cursor-pointer mt-1 mx-1" />
                                     <ul
                                         className={`hidden absolute top-14 sm:z-[99] lg:z-0 lge:z-0 md:z-[99] mdsm:z-[99] bg-primary border bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-80 group-hover:block slide-top`}
@@ -129,49 +144,63 @@ export default function Nav(props) {
                                         {/* <br /> */}
                                         <li>
                                             <Link to="/what-we-offer/research" className={`text-center block py-2.5 px-5 hover:bg-secondary`}>
-                                                <li className={`${props.active === 'research' ? 'active' : 'hover-underline-animation'}`}>
-                                                    Research
-                                                </li>
+                                                <ul>
+                                                    <li className={`${props.active === 'research' ? 'active' : 'hover-underline-animation'}`}>
+                                                        Research
+                                                    </li>
+                                                </ul>
                                             </Link>
                                         </li>
                                         {/* <br /> */}
                                         <li>
                                             <Link to="/what-we-offer/advocacy" className={`text-center block py-2.5 px-5 hover:bg-secondary`}>
-                                                <li className={`${props.active === 'advocacy' ? 'active' : 'hover-underline-animation'}`}>
-                                                    Advocacy
-                                                </li>
+                                                <ul>
+                                                    <li className={`${props.active === 'advocacy' ? 'active' : 'hover-underline-animation'}`}>
+                                                        Advocacy
+                                                    </li>
+                                                </ul>
                                             </Link>
                                         </li>
                                         {/* <br /> */}
                                         <li>
                                             <Link to="/what-we-offer/practice" className={`text-center block py-2.5 px-5 hover:bg-secondary`}>
-                                                <li className={`${props.active === 'practice' ? 'active' : 'hover-underline-animation'}`}>
-                                                    Practice
-                                                </li>
+                                                <ul>
+                                                    <li className={`${props.active === 'practice' ? 'active' : 'hover-underline-animation'}`}>
+                                                        Practice
+                                                    </li>
+                                                </ul>
                                             </Link>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
                                     <Link to="/clients" className={`block px-3`}>
-                                        <li className={`${props.active === 'clients' ? 'active' : 'hover-underline-animation'}`}>Clients</li>
+                                        <ul>
+                                            <li className={`${props.active === 'clients' ? 'active' : 'hover-underline-animation'}`}>Clients</li>
+                                        </ul>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/blogs" className={`block px-3`}>
-                                        <li className={`${props.active === 'blogs' ? 'active' : 'hover-underline-animation'} `}>Blogs</li>
+                                        <ul>
+                                            <li className={`${props.active === 'blogs' ? 'active' : 'hover-underline-animation'} `}>Blogs</li>
+                                        </ul>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/news-announcements" className={`block px-3`}>
-                                        <li className={`${props.active === 'news-announcements' ? 'active' : 'hover-underline-animation'}`}>
-                                            News/Announcements
-                                        </li>
+                                        <ul>
+                                            <li className={`${props.active === 'news-announcements' ? 'active' : 'hover-underline-animation'}`}>
+                                                News/Announcements
+                                            </li>
+                                        </ul>
                                     </Link>
                                 </li>
                                 <li>
                                     <Link to="/contact-us" className={`block px-3`}>
-                                        <li className={`${props.active === 'contact' ? 'active' : 'hover-underline-animation'}`}>Contact us</li>
+                                        <ul>
+                                            <li className={`${props.active === 'contact' ? 'active' : 'hover-underline-animation'}`}>Contact us</li>
+                                        </ul>
                                     </Link>
                                 </li>
                             </ul>

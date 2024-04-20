@@ -72,28 +72,28 @@ export default function Footer() {
                         </div>
                         <div className="">
                             <div className="text-center pt-10 sm:pt-5 pb-5">
-                                <h4 className="font-LatoBold pb-2 text-[24px] text-white">Subscribe for Updates</h4>
+                                <h2 className="font-LatoBold pb-2 text-[24px] text-white">Subscribe for Updates</h2>
                                 <div className="flex justify-center">
                                     <input placeholder="Email" className="mx-2 w-[50%] py-1.5 px-4 placeholder:font-Poppins" />
                                     <button className="bg-secondary text-white px-6 font-PoppinsLight">Subscribe</button>
                                 </div>
                             </div>
                             <div className="text-center">
-                                <h4 className="font-LatoBold pb-2 text-[24px] text-white">Social</h4>
+                                <h3 className="font-LatoBold pb-2 text-[24px] text-white">Social</h3>
                                 <div className="h-9 flex justify-center space-x-5 text-[22px] sm:text-[18px] items-center text-whitetext">
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.youtube.com/" target="_blank" rel="noreferrer" aria-label="youtube">
                                         <AiFillYoutube className="text-[26px] sm:text-[20px]" />
                                     </a>
-                                    <a href="#" target="_blank">
+                                    <a href="https://in.linkedin.com/" target="_blank" rel="noreferrer" aria-label="linkedin">
                                         <AiFillLinkedin className="" />
                                     </a>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.facebook.com" target="_blank" rel="noreferrer" aria-label="facebook">
                                         <AiFillFacebook className="" />
                                     </a>
-                                    <a href="#" target="_blank">
+                                    <a href="https://twitter.com/" target="_blank" rel="noreferrer" aria-label="twitter">
                                         <FaSquareXTwitter className="" />
                                     </a>
-                                    <a href="#" target="_blank">
+                                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" aria-label="instagram">
                                         <AiFillInstagram className="text-[24px] sm:text-[20px]" />
                                     </a>
                                 </div>
@@ -101,9 +101,9 @@ export default function Footer() {
                         </div>
                     </div>
                     <div className="text-center pt-4">
-                        <h3 className="text-white font-PoppinsLight text-[15px] sm:px-6 md:pb-5 mdsm:pb-5">
+                        <h4 className="text-white font-PoppinsLight text-[15px] sm:px-6 md:pb-5 mdsm:pb-5">
                             © Copyright 2023 Padmavathi Institute of Public Policy. All rights reserved.
-                        </h3>
+                        </h4>
                     </div>
                 </div>
             </div>
