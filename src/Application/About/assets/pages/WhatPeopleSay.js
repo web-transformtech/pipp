@@ -1,11 +1,9 @@
-import React from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Pagination, Navigation, Keyboard } from 'swiper/modules';
 import Ellipse from '../images/Ellipse.png';
-
 export default function WhatPeopleSay() {
     return (
         <div className="container mx-auto pb-10">

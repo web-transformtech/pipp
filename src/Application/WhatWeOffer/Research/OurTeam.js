@@ -1,6 +1,4 @@
-import React from 'react';
 import './assets/style.css';
-
 export default function OurTeam() {
     const Teams = [
         {
@@ -48,7 +46,7 @@ export default function OurTeam() {
                 </h1>
                 <div className="grid lg:grid-cols-3 lge:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 mdsm:grid-cols-2 container mx-auto py-10 ">
                     {Teams.map((team, i) => (
-                        <div className="px-3 p-10 glassBg lg:mx-3 lge:mx-3 sm:mx-6 md:mx-6 mdsm:mx-6 my-3">
+                        <div key={i} className="px-3 p-10 glassBg lg:mx-3 lge:mx-3 sm:mx-6 md:mx-6 mdsm:mx-6 my-3">
                             <img src={team.img} loading="lazy" alt="Team Members" className="mx-auto h-56 w-56 rounded-full" />
                             <h2 className="text-center text-[20px] font-LatoBold text-text pt-4 pb-2">{team.name}</h2>
                             <p className="text-white font-Poppins text-center pb-2">{team.designation}</p>

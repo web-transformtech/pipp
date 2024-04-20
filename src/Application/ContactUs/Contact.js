@@ -1,9 +1,7 @@
-import React from 'react';
 import Nav from '../Navbar/Nav';
 import Header from './assets/images/ContactHeader.png';
 import ContactPage from './ContactPage';
 import Footer from '../Footer/Footer';
-
 export default function Contact() {
     return (
         <div className="onload">

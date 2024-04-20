@@ -1,4 +1,3 @@
-import React from 'react';
 import BluePrintIMG from './assets/images/Blue Print.webp';
 import Healthier from './assets/images/Blue Prints/healthier.webp';
 import EQUITABLE from './assets/images/Blue Prints/MORE EQUITABLE.webp';

@@ -1,4 +1,3 @@
-import React from 'react';
 import './pages.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -9,7 +8,6 @@ import Amazon from '../images/companys/Amazon.png';
 import Tech from '../images/companys/tech.png';
 import Byjus from '../images/companys/byjus.png';
 import Flipkart from '../images/companys/Flipkart.png';
-
 export default function TrustedCompany() {
     return (
         <div className="pt-10 pb-20">

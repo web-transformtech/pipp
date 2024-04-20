@@ -1,6 +1,4 @@
-import React from 'react';
 import HomeStyle from './assets/style.module.css';
-
 function CommunityBuilding() {
     return (
         <div>

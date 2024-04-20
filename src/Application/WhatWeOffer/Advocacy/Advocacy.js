@@ -1,4 +1,3 @@
-import React from 'react';
 import Nav from '../../Navbar/Nav';
 // import CardTeaching from "./CardTeaching";
 import Header from './assets/image/BannerHeader.png';
@@ -6,7 +5,6 @@ import Footer from '../../Footer/Footer';
 import OurTeam from './OurTeam';
 import TeachingCourse from './TeachingCourse';
 import JoinUs from './JoinUs';
-
 export default function Advocacy() {
     return (
         <div className="onload">
@@ -24,7 +22,7 @@ export default function Advocacy() {
                 <div className="lge:border-l-[2px] lg:border-l-[2px] sm:border-t-[1px] sm:py-5 mdsm:py-5 mdsm:pl-0 sm:mx-0 sm:pl-0 text-justify border-border-color lg:mx-10 lge:mx-10 col-span-2 lg:pl-10 lge:pl-10">
                     <p className="font-Poppins text-[20px] text-secondary-text sm:text-[16px]">
                         Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably
-                        haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.
+                        haven&#39;t heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.
                     </p>
                 </div>
             </div>

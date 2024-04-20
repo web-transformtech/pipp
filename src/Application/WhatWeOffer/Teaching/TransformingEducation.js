@@ -1,6 +1,4 @@
-import React from 'react';
 import Transforming from './assets/images/transforming.png';
-
 export default function TransformingEducation() {
     return (
         <div className="container mx-auto">

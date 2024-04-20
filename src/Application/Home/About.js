@@ -1,4 +1,3 @@
-import React from 'react';
 import AboutImg from './assets/images/About Pipp.webp';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 function About() {

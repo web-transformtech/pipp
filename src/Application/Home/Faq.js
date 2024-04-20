@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { HiChevronDown, HiChevronUp } from 'react-icons/hi';
 function Faq() {
     const [activeIndex, setActiveIndex] = useState(-1);

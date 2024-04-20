@@ -1,6 +1,4 @@
-import React from 'react';
 import About from './assets/image/about.webp';
-
 export default function JoinUs() {
     return (
         <div>

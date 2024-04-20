@@ -1,11 +1,9 @@
-import React from 'react';
 import './assets/style.css';
 import Nav from '../Navbar/Nav';
 import Header from './assets/images/BlogHeader.png';
 import BlogCard from './BlogCard';
 import BlogCard2 from './BlogCard2';
 import Footer from '../Footer/Footer';
-
 export default function Blog() {
     return (
         <div className="onload">

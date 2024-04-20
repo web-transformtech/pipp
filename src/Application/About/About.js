@@ -1,4 +1,3 @@
-import React from 'react';
 import './assets/about.css';
 import { FaRegHandshake } from 'react-icons/fa';
 import { BsLightningCharge } from 'react-icons/bs';
@@ -10,7 +9,6 @@ import MissionEllipse from './assets/images/MissionEllipse.png';
 import TrustedCompany from './assets/pages/TrustedCompany';
 import WhatPeopleSay from './assets/pages/WhatPeopleSay';
 import Footer from '../Footer/Footer';
-
 export default function About() {
     return (
         <div className="onload">

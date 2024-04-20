@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import './assets/css/nav.css';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 import { Link } from 'react-router-dom';
@@ -28,19 +28,19 @@ export default function Nav(props) {
     return (
         <>
             <div className="h-9 pr-[100px] flex justify-end space-x-5 text-[22px] sm:text-[18px] items-center text-whitetext  bg-gradient-to-r from-primary to-secondary">
-                <a href="https://www.youtube.com/" target="_blank">
+                <a href="https://www.youtube.com/" target="_blank" rel="noreferrer">
                     <AiFillYoutube className="text-[26px] sm:text-[20px]" />
                 </a>
-                <a href="https://in.linkedin.com/" target="_blank">
+                <a href="https://in.linkedin.com/" target="_blank" rel="noreferrer">
                     <AiFillLinkedin className="" />
                 </a>
-                <a href="https://www.facebook.com/" target="_blank">
+                <a href="https://www.facebook.com/" target="_blank" rel="noreferrer">
                     <AiFillFacebook className="" />
                 </a>
-                <a href="https://twitter.com/" target="_blank">
+                <a href="https://twitter.com/" target="_blank" rel="noreferrer">
                     <FaSquareXTwitter className="" />
                 </a>
-                <a href="https://www.instagram.com/" target="_blank">
+                <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
                     <AiFillInstagram className="text-[24px] sm:text-[20px]" />
                 </a>
             </div>

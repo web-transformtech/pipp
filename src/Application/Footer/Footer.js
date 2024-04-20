@@ -1,4 +1,3 @@
-import React from 'react';
 import FooterCss from './assets/footer.module.css';
 import FooterLogo from './assets/images/footerLogo.webp';
 import { AiFillFacebook, AiFillLinkedin, AiFillYoutube, AiFillInstagram } from 'react-icons/ai';

@@ -1,12 +1,9 @@
-import React from 'react';
 import './assets/style.css';
 import { Swiper, SwiperSlide } from 'swiper/react';
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/pagination';
 import { Autoplay } from 'swiper/modules';
-
 export default function BlogCard2() {
     const posts = [
         {

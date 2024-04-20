@@ -1,4 +1,3 @@
-import React from 'react';
 import HomeStyle from './assets/style.module.css';
 import Benz from './assets/images/our clients images/benz.webp';
 import Amazon from './assets/images/our clients images/Amazon.webp';

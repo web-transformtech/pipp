@@ -1,6 +1,4 @@
-import React from 'react';
 import { RiBox2Fill } from 'react-icons/ri';
-
 export default function TeachingCourse() {
     return (
         <div>
@@ -38,10 +36,10 @@ export default function TeachingCourse() {
                             Unlock Your Potential with Our Comprehensive Range of Courses
                         </h2>
                         <p className="font-Poppins text-secondary-text ">
-                            Our institution offers a diverse selection of courses designed to meet the needs and interests of students. Whether you're
-                            looking to enhance your professional skills, pursue a new hobby, or prepare for higher education, our comprehensive range
-                            of courses has you covered. Our experienced teachers will guide you through the learning journey, ensuring that you
-                            acquire the knowledge and skills necessary for success.
+                            Our institution offers a diverse selection of courses designed to meet the needs and interests of students. Whether
+                            you&#39;re looking to enhance your professional skills, pursue a new hobby, or prepare for higher education, our
+                            comprehensive range of courses has you covered. Our experienced teachers will guide you through the learning journey,
+                            ensuring that you acquire the knowledge and skills necessary for success.
                         </p>
                     </div>
                 </div>

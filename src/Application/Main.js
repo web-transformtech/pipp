@@ -1,4 +1,3 @@
-import React from 'react';
 import './Css/style.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Home from './Home/Home';
@@ -12,7 +11,6 @@ import Advocacy from './WhatWeOffer/Advocacy/Advocacy';
 import Practise from './WhatWeOffer/Practice/Practise';
 import Research from './WhatWeOffer/Research/Research';
 import PageNotFound from './404/PageNotFound';
-
 export default function Main() {
     return (
         <div>

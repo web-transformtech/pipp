@@ -1,7 +1,5 @@
-import React from 'react';
 import Staff from './assets/images/staff.webp';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-
 export default function Testimonials() {
     return (
         <div>
@@ -11,8 +9,8 @@ export default function Testimonials() {
                         <LazyLoadImage src={Staff} alt="Staff" draggable="false" loading="lazy" className="" />
                     </div>
                     <p className="py-5 px-20 text-white font-PoppinsLight leading-relaxed">
-                        Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                        ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+                        Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90&#39;s cronut +1 kinfolk. Single-origin
+                        coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
                     </p>
                     <div className="flex justify-center py-3">
                         <p className="border-b-4 w-[10%] rounded-lg border-primary"></p>
@@ -26,8 +24,8 @@ export default function Testimonials() {
                         <LazyLoadImage src={Staff} alt="Staff" draggable="false" loading="lazy" className="" />
                     </div>
                     <p className="py-5 px-20 text-white font-PoppinsLight leading-relaxed">
-                        Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90's cronut +1 kinfolk. Single-origin coffee
-                        ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
+                        Edison bulb retro cloud bread echo park, helvetica stumptown taiyaki taxidermy 90&#39;s cronut +1 kinfolk. Single-origin
+                        coffee ennui shaman taiyaki vape DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.
                     </p>
                     <div className="flex justify-center py-3">
                         <p className="border-b-4 w-[10%] rounded-lg border-primary"></p>

@@ -1,4 +1,3 @@
-import React from 'react';
 import HomeStyle from './assets/style.module.css';
 import HeaderNav from './assets/images/header-image.webp';
 import Nav from '../Navbar/Nav';

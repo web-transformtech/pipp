@@ -1,4 +1,3 @@
-import React from 'react';
 import Support from './assets/images/Support.webp';
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 function Supporting() {
@@ -26,7 +25,7 @@ function Supporting() {
                         <div className="">{/* <LazyLoadImage src={Support} loading="lazy" className=''/> */}</div>
                         <div className="">
                             <p className="lg:absolute lg:text-white lge:text-white lg:bg-[#fdfafa00] md:bg-primary md:text-white mdsm:bg-primary mdsm:text-white sm:bg-primary sm:text-white font-Poppins lg:py-52 lge:py-52 sm:py-5 md:py-6 mdsm:py-6 text-[20px] px-16 font-semibold">
-                                "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
                                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                                 Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
                             </p>

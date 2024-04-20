@@ -1,9 +1,7 @@
-import React from 'react';
 import Nav from '../Navbar/Nav';
 import ClientHeader from './assets/images/clientsbanner.png';
 import OurClients from './OurClients';
 import Footer from '../Footer/Footer';
-
 export default function Clients() {
     return (
         <div className="onload">

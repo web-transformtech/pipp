@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Example() {
     return (
         <div className="relative bg-white border-t-[1px] border-[#D9D9D9]">
@@ -13,7 +11,7 @@ export default function Example() {
             <div className="pb-24 pt-16 sm:pb-32 sm:pt-24 lg:mx-auto lg:grid lg:max-w-7xl lg:grid-cols-2">
                 <div className="px-6 lg:px-8">
                     <div className="mx-auto max-w-xl lg:mx-0 lg:max-w-lg">
-                        <h2 className="text-[26px] font-bold tracking-tight text-primary">Let's work together</h2>
+                        <h2 className="text-[26px] font-bold tracking-tight text-primary">Let&#39;s work together</h2>
                         <p className="mt-2 text-base font-Poppins leading-8 text-secondary-text">
                             Proin volutpat consequat porttitor cras nullam gravida at orci molestie a eu arcu sed ut tincidunt magna.
                         </p>
