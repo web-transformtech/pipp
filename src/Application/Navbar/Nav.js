@@ -239,9 +239,9 @@ export default function Nav(props) {
                     <LazyLoadImage
                         src={props.SrcImg}
                         alt="Header Banner"
-                        // width="1440"
-                        // height="399"
-                        className="w-full h-full"
+                        width="1440"
+                        height="399"
+                        className="w-full h-auto"
                     />
                 </div>
             </div>
