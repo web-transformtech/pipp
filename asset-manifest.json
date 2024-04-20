@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/pipp/static/css/main.73b1e34b.css",
-    "main.js": "/pipp/static/js/main.714098c1.js",
-    "static/js/27.fe8725a5.chunk.js": "/pipp/static/js/27.fe8725a5.chunk.js",
+    "main.js": "/pipp/static/js/main.2e3bd7a1.js",
+    "static/js/27.c0ee6491.chunk.js": "/pipp/static/js/27.c0ee6491.chunk.js",
     "static/media/mission.png": "/pipp/static/media/mission.d801079190d157d396db.png",
     "static/media/BlogSection.png": "/pipp/static/media/BlogSection.a808bb4ef7a6fb9a6aee.png",
     "static/media/newsSection.png": "/pipp/static/media/newsSection.3caa36a3f7c20b94f24e.png",
@@ -48,11 +48,10 @@
     "static/media/footerLogo.webp": "/pipp/static/media/footerLogo.d33a40b349ce1d6c6dac.webp",
     "static/media/GREENER.webp": "/pipp/static/media/GREENER.8442a4a26e24e465a0ec.webp",
     "static/media/Deloitte.webp": "/pipp/static/media/Deloitte.990cca475a8489f6d386.webp",
-    "static/media/mobile logo.webp": "/pipp/static/media/mobile logo.12d0b7ed1425439e929f.webp",
     "index.html": "/pipp/index.html"
   },
   "entrypoints": [
     "static/css/main.73b1e34b.css",
-    "static/js/main.714098c1.js"
+    "static/js/main.2e3bd7a1.js"
   ]
 }
