@@ -12,7 +12,7 @@ export default function Footer() {
                         <div className="flex justify-center">
                             <LazyLoadImage src={FooterLogo} alt="Footer Logo" className="text-center" />
                         </div>
-                        <h3 className="text-primary text-center font-Lato font-extrabold text-[20px]">Padmavathi Institute of Public Policy</h3>
+                        <h1 className="text-primary text-center font-Lato font-extrabold text-[20px]">Padmavathi Institute of Public Policy</h1>
                         <p className="text-secondary-text py-7 leading-relaxed font-Poppins text-[15px]">
                             Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
                         </p>
