@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pipp/static/css/main.61ca5360.css",
-    "main.js": "/pipp/static/js/main.bde950d3.js",
+    "main.js": "/pipp/static/js/main.32c190d5.js",
     "static/js/27.c0ee6491.chunk.js": "/pipp/static/js/27.c0ee6491.chunk.js",
     "static/media/mission.png": "/pipp/static/media/mission.d801079190d157d396db.png",
     "static/media/BlogSection.png": "/pipp/static/media/BlogSection.a808bb4ef7a6fb9a6aee.png",
@@ -52,6 +52,6 @@
   },
   "entrypoints": [
     "static/css/main.61ca5360.css",
-    "static/js/main.bde950d3.js"
+    "static/js/main.32c190d5.js"
   ]
 }
