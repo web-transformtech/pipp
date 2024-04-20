@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/pipp/static/css/main.35ddfd60.css",
-    "main.js": "/pipp/static/js/main.6d02f048.js",
+    "main.js": "/pipp/static/js/main.c23b52eb.js",
     "static/js/787.69edc478.chunk.js": "/pipp/static/js/787.69edc478.chunk.js",
     "static/media/mission.png": "/pipp/static/media/mission.d801079190d157d396db.png",
     "static/media/BlogSection.png": "/pipp/static/media/BlogSection.a808bb4ef7a6fb9a6aee.png",
@@ -50,11 +50,11 @@
     "static/media/Deloitte.webp": "/pipp/static/media/Deloitte.990cca475a8489f6d386.webp",
     "index.html": "/pipp/index.html",
     "main.35ddfd60.css.map": "/pipp/static/css/main.35ddfd60.css.map",
-    "main.6d02f048.js.map": "/pipp/static/js/main.6d02f048.js.map",
+    "main.c23b52eb.js.map": "/pipp/static/js/main.c23b52eb.js.map",
     "787.69edc478.chunk.js.map": "/pipp/static/js/787.69edc478.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.35ddfd60.css",
-    "static/js/main.6d02f048.js"
+    "static/js/main.c23b52eb.js"
   ]
 }
