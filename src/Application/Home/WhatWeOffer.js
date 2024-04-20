@@ -10,7 +10,7 @@ function WhatWeOffer() {
                     </h1>
                 </div>
                 <div className="lge:border-l-[2px] lg:border-l-[2px] sm:border-t-[1px] sm:py-5 mdsm:py-5 mdsm:pl-0 sm:mx-0 sm:pl-0 text-justify border-border-color lg:mx-10 lge:mx-10 col-span-2 lg:pl-10 lge:pl-10">
-                    <p className="font-Poppins text-[20px] text-secondary-text sm:text-[16px]">
+                    <p className="font-Poppins lg:text-[20px] lge:text-[20px] md:text-[18px] mdsm:text-[16px] text-secondary-text sm:text-[14px]">
                         We bridge the information gap. And help build careers in this space through our community of students, policy professionals,
                         NGOs, think tanks, educational institutions and other organisations that partake in any stage of the policy making process to
                         create a one-of-a-kind learning platform in the country.

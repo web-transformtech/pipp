@@ -6,6 +6,7 @@ import { AiFillFacebook, AiFillLinkedin, AiFillYoutube, AiFillInstagram } from '
 import { FaSquareXTwitter } from 'react-icons/fa6';
 import { HiChevronDown } from 'react-icons/hi';
 import Logo from './assets/images/PIPP FINAL LOGO.webp';
+// import MobLogo from './assets/images/mobile logo.webp';
 export default function Nav(props) {
     const [mobilenav, setMobilenav] = useState(false);
     function mobnav() {
@@ -59,6 +60,22 @@ export default function Nav(props) {
                     alt="Padmavathi Institute of Public Policy"
                     className="lg:h-full sm:h-[50px] mdsm:h-[70px]"
                 />
+                {/* <LazyLoadImage
+                    src={Logo}
+                    draggable="false"
+                    // width="93"
+                    // height="118"
+                    alt="Padmavathi Institute of Public Policy"
+                    className="lg:h-full sm:h-[50px] mdsm:h-[70px] lg:block lge:block md:block mdsm:block sm:hidden"
+                /> */}
+                {/* <LazyLoadImage
+                    src={MobLogo}
+                    draggable="false"
+                    width="39"
+                    height="50"
+                    alt="Padmavathi Institute of Public Policy"
+                    className="lg:h-full sm:h-[50px] mdsm:h-[70px] lg:hidden lge:hidden md:hidden mdsm:hidden sm:block"
+                /> */}
                 <h1 className="text-primary lg:blcok lge:block sm:hidden md:hidden mdsm:hidden font-Lato font-extrabold mx-3 lg:text-[30px] lge:text-[30px] sm:text-[15px] mdsm:text-[25px]">
                     Padmavathi Institute of Public Policy
                 </h1>
@@ -236,13 +253,7 @@ export default function Nav(props) {
             draggable="false"
             className="w-full h-full"
           /> */}
-                    <LazyLoadImage
-                        src={props.SrcImg}
-                        alt="Header Banner"
-                        width="1440"
-                        height="399"
-                        className="w-full h-auto"
-                    />
+                    <LazyLoadImage src={props.SrcImg} alt="Header Banner" width="1440" height="399" className="w-full h-auto" />
                 </div>
             </div>
         </>
